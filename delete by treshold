@@ -1,0 +1,3 @@
+if ( rand(@ptnum) > ch('remove') ) {
+removepoint(0,@ptnum);
+} 
