@@ -1,0 +1,4 @@
+if( @P.y < 0 )
+{
+removepoint(0,@ptnum);
+}
