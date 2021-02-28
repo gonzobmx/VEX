@@ -1,0 +1,6 @@
+put On the floor:
+-$CEX -$YMIN -$CEZ
+
+
+automatically back to the world's center.
+-$CEX -$CEY -$CEZ
