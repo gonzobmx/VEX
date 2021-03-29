@@ -3,4 +3,4 @@ put On the floor:
 
 
 automatically back to the world's center.
--$CEX -$CEY -$CEZ
+$CEX $CEY $CEZ
