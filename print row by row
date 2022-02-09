@@ -1,0 +1,3 @@
+float var = 0.1;
+float x = clamp(@P.x,@P.x-rand(@ptnum)*var,@P.x+rand(@ptnum)*var); 
+printf('%-s\n',x);
