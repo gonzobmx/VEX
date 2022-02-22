@@ -1,3 +1,10 @@
+
 if ( rand(@ptnum) > ch('remove') ) {
 removepoint(0,@ptnum);
 } 
+
+// delete from end to begining
+float a = fit01(`chs("remove")`,0,@numpt);
+if (@ptnum <= a){
+removepoint(0,@ptnum ,0);
+}
