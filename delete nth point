@@ -1,0 +1,12 @@
+int x = `chs("nth")`;
+int start  = 0;
+for (int a=0 ;a <= @numpt; a++){
+
+if(a %4 !=0){
+start++;
+if(start<=x){
+removepoint(0,a);
+}
+}
+
+}
