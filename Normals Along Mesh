@@ -1,0 +1,5 @@
+// first create polyframe node - it's generate tangent info. then:
+
+vector a = set(0,0,0);
+@N = normalize(a+@P);
+@N = cross(@N,normalize(@tangentu));
