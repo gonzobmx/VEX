@@ -1,0 +1,6 @@
+vector pivotOffset= chv("PivotOffset");
+vector pivotCentroid =  primintrinsic(0, "pivot", @ptnum);
+vector newPivot = pivotCentroid + pivotOffset;
+
+setprimintrinsic(0, "pivot", @ptnum, newPivot);
+@P += pivotOffset;
